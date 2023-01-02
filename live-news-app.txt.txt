@@ -1,0 +1,53 @@
+reference:
+	https://v2.tailwindcss.com/docs/guides/nextjs
+	https://github.com/tailwindlabs/heroicons heroicons.com - tailwind icon library 
+	https://mediastack.com/quickstart
+	https://stepzen.com/getting-started
+	https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp	- to write some amount of words and then add ... for avoiding whole description of news article
+	https://www.npmjs.com/package/next-themes
+
+	for live timestamp: npm install react-timeago - shows how many hours ago the aritcle was posted.
+
+	install vercel cli first
+	reference: https://vercel.com/docs/cli
+
+tech-stack:
+	next.js v13.
+	stepZen - makes graphQL painful process and setup very easy for us - write graphQL apis
+	graphQL(with stepZen)
+	typeScript
+	mediastack.com api - live news fetching	- gives 500 free requests per month.
+	react 
+	tailwind css
+	
+features:
+	dark mode
+	search feature for news
+	category-wise news
+	fully responsive website
+	all news coming dynamically
+	deploy our app to vercel
+
+learnings:
+	static data rendering
+	next.js v13 concepts	- like server components in brand new next.js 13
+	typescript
+	react
+
+static data - data at build time. 
+dynamic data - on every request, information/content is generated.
+
+for static data, we can do re-validation techniques in next.js v13. - will see this
+
+everything inside pages folder are client components.
+now there is concept of server components in nextjs v13.
+server components exists inside app folder - create app folder in root directory
+before using server components, goto next.config.js - add some configuration
+
+delete index.tsx from pages folder - to server page.tsx file as homepage inside app folder
+
+All components inside app folder are server components.
+
+install library:
+	npm add graphql-request graphql
+	npm install -g stepzen
