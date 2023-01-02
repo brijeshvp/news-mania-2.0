@@ -63,8 +63,3 @@ const fetchNews = async (category?: Category | string, keywords?: string, isDyna
 }
 
 export default fetchNews;
-
-// stepzen import curl "http://api.mediastack.com/v1/news?access_key=dff8f51a656c927687e1e2ba6cb4334d&sources=business,sports"
-
-// final command
-// stepzen import curl "http://api.mediastack.com/v1/news?access_key=dff8f51a656c927687e1e2ba6cb4334d&countries=in&limit=100&offset=0&sort=published_desc"
